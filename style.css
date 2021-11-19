@@ -157,7 +157,31 @@ span{
     text-align: center;
     margin-top: 100px;
     font-size: 11px;
-    bottom: 0;
+}
+.fotjep p{
+    margin-left: 50px;
+}
+.fa-facebook-square{
+    color: salmon;
+}
+.reveal{
+    opacity: 0;
+    transition: all ease 2s;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+.iconF li{
+    display: inline;
+}
+.iconF{
+    font-size: 18px;
+    text-align: center;
+}
+.fab{
+    color: rgb(192, 192, 192);
+    margin-left: 10px;
 }
 
 @media only screen and (max-width:640px) {
@@ -173,7 +197,7 @@ span{
         margin-top: -10px;
     }
     .about h2{
-        font-size: 32px;
+        font-size: 22px;
         text-align: center;
         margin: 0;
         padding-top: 100px;
@@ -189,22 +213,24 @@ span{
         display: none;
     }
     .destination h1 {
-        font-size: 32px;
+        font-size: 22px;
         margin: 0;
         text-align: center;
         padding-bottom: 50px;
     }
     .ImDes {
         padding-bottom: 30px;
-        width: 400px;
+        width: 250px;
         border-radius: round;
         filter: brightness(75%);
+        margin-left: 45px;
     }
     .ImDes p {
         opacity: 100%;
         text-align: center;
-        font-size: 30px;
-        right: 15%;
+        font-size: 20px;
+        right: 20%;
+        top: 40%;
     }
     .food p {
         left: 20%;
@@ -217,6 +243,9 @@ span{
         margin: 0;
         text-align: center;
         padding-top: 50px;
+    }
+    .rinig h1{
+        font-size: 22px;
     }
     .rinig p {
         margin-top: 0;
@@ -241,11 +270,16 @@ span{
         display: none;
     }
     .fotjep p {
-        font-size: 8px;
+        font-size: 6px;
         font-family: "montserrat";
+        margin:0;
     }
     .fotjep span {
         font-family: "MyWebFont" ;
+    }
+    .fab{
+        font-size: 6px;
+        margin: 0;
     }
 
 
