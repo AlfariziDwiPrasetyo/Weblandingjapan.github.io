@@ -1,0 +1,252 @@
+*{
+
+    overflow-x: hidden;
+}
+body{
+    background-color: black;
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url(font/MonumentExtended-Regular.otf) format("OpenType");
+}
+.header {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8) ), url('photo/header.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+
+}
+.header h1,p{
+    position: relative;
+    color: white;
+}
+.header h1 {
+    font-size: 120px;
+    font-family: 'MyWebFont';
+    margin-top: 300px;
+}
+.header p {
+    font-size: 19px;
+    font-family: 'montserrat';
+    font-weight: bold;
+}
+.about h2 {
+    font-family: 'MyWebFont';
+    color: white;
+    font-size: 50px;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    text-align:left;
+    margin-left: 100px;
+}
+.about {
+    height: 100%;
+}
+.about p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+span{
+    color: rgb(255, 28, 58);
+}
+.jepang{
+    top: 140%;
+}
+.kanji p{
+     margin-left: 87%;
+     stroke: rgb(255, 28, 58);
+     color: black;
+     font-size: 290px;
+     -webkit-text-stroke: 3px rgb(255, 28, 58);
+     font-weight: normal;
+     margin-top: -180px;
+     position: absolute;
+}
+.container .destination{
+    height: 100%;
+    width: 100%;
+    font-family: 'MyWebFont';
+    color: white;
+    margin-top: 30%;
+}
+.destination h1{
+    text-align: center;
+}
+.ImDes img{
+    border-radius: 20px;
+    filter: brightness(60%);
+    display: block;
+    transition: ease-in .6s;
+    width: 100%;
+    height: auto;
+}
+.ImDes p {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-size: 40px;
+    transition: all .6s;
+    opacity: 0;
+}
+.food p{
+    left: 30%;
+}
+.ImDes a:hover + p{
+    opacity: 100%;
+}
+.ImDes img:hover{
+    filter: brightness(20%);
+}
+.conim{
+    margin-top: 20px;
+}
+.nightlife{
+    margin-top: 195px;
+}
+.nightlife p {
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 50px;
+}
+.rinig{
+    margin-left: 60px;
+}
+.lefnig img{
+    filter: brightness(80%);
+    height: auto;
+}
+.bigcity{
+    margin-top: 195px;
+}
+.tokyo h1{
+    margin-top:20px;
+}
+.conji h1{
+    margin-top: 400px;
+}
+.comvijep{
+    margin-top: 400px;
+}
+.comvi{
+    width: 100%;
+    position: relative;
+}
+.comvi h1{
+    font-size: 290px;
+    color: rgb(255, 28, 58);
+    display: block;
+    filter: brightness(60%);
+}
+.comvi p{
+    position: absolute;
+    top: 120px;
+    font-size: 54px;
+    left: 20%;
+}
+.confotjep{
+    margin-top: 100px;
+    position: relative;
+    display: block;
+}
+.fotjep{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 11px;
+    bottom: 0;
+}
+
+@media only screen and (max-width:640px) {
+    * {
+        Margin : 0;
+        Padding: 0;
+    }
+    .header h1{
+        font-size: 62px;
+    }
+    .header p{
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    .about h2{
+        font-size: 32px;
+        text-align: center;
+        margin: 0;
+        padding-top: 100px;
+    }
+    .about p{
+        font-size: 10px;
+        margin:0;
+        padding-top: 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .kanji {
+        display: none;
+    }
+    .destination h1 {
+        font-size: 32px;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .ImDes {
+        padding-bottom: 30px;
+        width: 400px;
+        border-radius: round;
+        filter: brightness(75%);
+    }
+    .ImDes p {
+        opacity: 100%;
+        text-align: center;
+        font-size: 30px;
+        right: 15%;
+    }
+    .food p {
+        left: 20%;
+    }
+    .lefnig img{
+        margin-left: -20px;
+        width: 300px;
+    }
+    .rinig {
+        margin: 0;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .rinig p {
+        margin-top: 0;
+        font-size: 15px;
+    }
+    .icon {
+        opacity: 0;
+    }
+    .kanjep {
+        margin-top: 200px;
+    }
+    .comvijep .comvi{
+        font-size: 8px;
+    }
+    .comvi h1 {
+        margin: 0;
+        text-align: center;
+        filter: brightness(100%);
+        font-weight: 50;
+    }
+    .comvi p {
+        display: none;
+    }
+    .fotjep p {
+        font-size: 8px;
+        font-family: "montserrat";
+    }
+    .fotjep span {
+        font-family: "MyWebFont" ;
+    }
+
+
+}
