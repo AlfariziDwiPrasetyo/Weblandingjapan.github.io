@@ -271,14 +271,14 @@ span{
     }
     .fotjep p {
         font-size: 6px;
-        font-family: "montserrat";
+        font-family: "montserrat"; 
         margin:0;
     }
     .fotjep span {
         font-family: "MyWebFont" ;
     }
     .fab{
-        font-size: 18px;
+        font-size: 10px;
         margin: 0;
     }
 
